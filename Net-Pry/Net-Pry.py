@@ -203,6 +203,27 @@ def run_network_tools():
         input("\nPress Enter to continue...")  # Wait for user to press Enter
 
 
+"""   
+
+ __          ___           _                                         _       _   _             
+ \ \        / (_)         | |                                       | |     | | (_)            
+  \ \  /\  / / _ _ __   __| | _____      _____    ___  ___  ___ __ _| | __ _| |_ _  ___  _ __  
+   \ \/  \/ / | | '_ \ / _` |/ _ \ \ /\ / / __|  / _ \/ __|/ __/ _` | |/ _` | __| |/ _ \| '_ \ 
+    \  /\  /  | | | | | (_| | (_) \ V  V /\__ \ |  __/\__ \ (_| (_| | | (_| | |_| | (_) | | | |
+     \/  \/   |_|_| |_|\__,_|\___/ \_/\_/ |___/  \___||___/\___\__,_|_|\__,_|\__|_|\___/|_| |_|
+                                                                                               
+                                                                                               
+                                    
+
+"""
+
+
+def windows_privallage_escalation():
+    print(f"{Fore.RED}Coming soon..{Fore.RESET}")
+    
+
+
+
 
 """   
    _____      _           _   _             
@@ -223,7 +244,7 @@ def selection():
         print("\nPlease choose an option: ")
         print("1. Networking tools")
         print(f"2. Process Injection ({Fore.GREEN}RC4 encryption{Fore.RESET})")
-        print("3. Option three")
+        print("3. Windows Privallage escalation (coming soon)")
         print("4. Option four")
         print("5. Exit")
 
@@ -234,8 +255,7 @@ def selection():
         elif choice == '2':
             inject_text_file()  # Call function to perform text file injection
         elif choice == '3':
-            print("Option selected")
-            # Implement option three functionality
+            windows_privallage_escalation()
         elif choice == '4':
             print("Option selected")
             # Implement option four functionality
