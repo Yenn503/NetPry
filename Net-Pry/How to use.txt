@@ -6,4 +6,4 @@ Run the Net-Pry.py file       CLI =  (python Net-Pry.py)
 
 Very straight forward to use follow the options you want to choose and input the values.
 
-If wanting to use the Process injector you need to enter in the file pathway when prompted to.
+If wanting to use the Process injector you need to enter in the file pathway of the payload when prompted to.
