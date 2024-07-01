@@ -2,6 +2,8 @@ how to use the Net-Pry CLI
 --------------------------------------------------------
 Please download this as a folder and make sure the testRsa.key is in there too for the SSH server authentication.
 
+Run the Net-Pry.py file       CLI =  (python Net-Pry.py)
+
 Very straight forward to use follow the options you want to choose and input the values.
 
 If wanting to use the Process injector you need to enter in the file pathway when prompted to.
